@@ -13,46 +13,70 @@
         src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
 </script>
     </head>
-  <body>
-      <amp-auto-ads type="adsense"
-        data-ad-client="ca-pub-2569524490284590">
-</amp-auto-ads>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Igor Rašić - Portfolio</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled">Disabled</a>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    </div>
-  </div>
-</nav>
+    <body>
+      <header>
+          <nav>
+              <div class="container">
+                  <h1>Igor Rasic</h1>
+                  <ul>
+                      <li><a href="#about">About</a></li>
+                      <li><a href="#portfolio">Portfolio</a></li>
+                      <li><a href="#contact">Contact</a></li>
+                  </ul>
+              </div>
+          </nav>
+      </header>
+  
+      <section id="hero">
+          <div class="container">
+              <h2>Web Developer</h2>
+              <p>Born on March 21, 1995 in Dachau</p>
+              <p>Email: igorrasic1995@gmail.com</p>
+              <p>Telephone: 01637296934</p>
+          </div>
+      </section>
+  
+      <section id="about">
+          <div class="container">
+              <h2>About Me</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pharetra urna non augue luctus vestibulum.
+                  Nulla rutrum nulla eu orci semper mattis. Curabitur pellentesque diam vel ornare consequat.</p>
+          </div>
+      </section>
+  
+      <section id="portfolio">
+          <div class="container">
+              <h2>Portfolio</h2>
+              <div class="project">
+                  <img src="project1.jpg" alt="Project 1">
+                  <h3>Project 1</h3>
+                  <p>Description of Project 1.</p>
+              </div>
+              <div class="project">
+                  <img src="project2.jpg" alt="Project 2">
+                  <h3>Project 2</h3>
+                  <p>Description of Project 2.</p>
+              </div>
+          </div>
+      </section>
+  
+      <section id="contact">
+          <div class="container">
+              <h2>Contact Me</h2>
+              <form>
+                  <input type="text" placeholder="Your Name">
+                  <input type="email" placeholder="Your Email">
+                  <textarea placeholder="Your Message"></textarea>
+                  <button type="submit">Send Message</button>
+              </form>
+          </div>
+      </section>
+  
+      <footer>
+          <div class="container">
+              <p>&copy; 2022 Igor Rasic. All rights reserved.</p>
+          </div>
+      </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
 
